@@ -1,0 +1,1 @@
+docker container inspect overlord  | grep "\"IPAddress" | head -n1 | awk '{ print $2 }' | tr -d "\","

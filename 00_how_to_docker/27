@@ -1,0 +1,2 @@
+docker service logs `docker service ps -f "name=engineering-bay.1" engineering-bay -q`
+

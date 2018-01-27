@@ -1,0 +1,1 @@
+docker run -d --name liar -p 8080:80 -e WORDPRESS_DB_PASSWORD=Kerrigan -e WORDPRESS_DB_NAME=zerglings --link spawning-pool:mysql wordpress
